@@ -1,5 +1,8 @@
 
-
+body {
+    font-family: 'Poppins';
+    Font-size: 15px;
+}
 
 
 *{
@@ -26,6 +29,7 @@
 .col-1{
     background-color: red;
     grid-row: 2/ 4;
+    
     /* align-self: center; */
 }
 
@@ -46,6 +50,25 @@
     background-color: hotpink;
     grid-row: 3/5;
     grid-column: 2/3;
+}
+
+.header-tag{
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    color: black;
+    font-family:'Poppins';
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    color: black;
+    font-family:'Poppins';
+    text-align: center;
+    font-weight: 400;
 }
 
 
